@@ -4,6 +4,7 @@
   height: 250px;
   text-align: center;
   font-size: 1.4rem;
+  overflow: scroll;
 
 }
 
@@ -13,3 +14,4 @@
     width: 700px;
   }
 }
+

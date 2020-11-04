@@ -28,15 +28,19 @@ const burgerIngredient = (props) => {
       break; 
     
     case('bacon'):
-      ingredient = <div className = {classes.Cheese}> </div>;
+      ingredient = <div className = {classes.Bacon}> </div>;
       break; 
+    
+    case('salad'):
+    ingredient = <div className = {classes.Salad}> </div>;
+    break;   
 
   }
   
   return ingredient;
 }
 
-burgerIngredient.PropTypes = {
+burgerIngredient.propTypes = {
   type: propTypes.string.isRequired,
 } 
 export default burgerIngredient;
